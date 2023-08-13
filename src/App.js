@@ -15,9 +15,10 @@
 export default App;*/
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './Navbar';
+import Navbar from './Navbar/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
+
 
 const App = () => {
   return (
