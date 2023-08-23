@@ -1,9 +1,11 @@
 import React from 'react';
-import '../Navbar/Navbar.css';
+import './About.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import myImage from '../image/About.png';
+
+
 
 const About = () => {
   return (
@@ -33,7 +35,7 @@ const About = () => {
         <Col xs={12} sm={6} md={6} className="About_Img_Contant">
 
 
-        <img  src={myImage}  style={{ width: '300px', height: 'auto' }}  />
+        <img  src={myImage}  alt="" style={{ width: '300px', height: 'auto' }}  />
 
                              {/* <Container >
                               <Row>
@@ -48,7 +50,9 @@ const About = () => {
                             </Container>*/}
         </Col>
       </Row>
+     
     </Container>
+    
 
 
 

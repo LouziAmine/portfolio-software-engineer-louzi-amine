@@ -7,8 +7,12 @@ ul {
 
 /* Style the navigation bar */
 nav {
-  background-color: #333;
-  color: white;
+  background-color: white;
+  color: black;
+ 
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+ 
 }
 
 /* Style the navigation links */
@@ -23,7 +27,7 @@ nav li {
 
 /* Style the links */
 nav a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -32,73 +36,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-
-
-/* About */
-
-  .About_Hi {
-   color:blue;
-   font-size: 20px;
-   font-family: 'Courier New', Courier, monospace;
-   font-weight: bolder;
-  }
-
-  .About_Hi_FullNames{
-    color:black;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-  }
-  /* #475569 */
-
-  .About_Hi_TitleJob{
-    color: #475569;
-    font-size: 28px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-  }
-
-  .About_Hi_TitleJob{
-    color: #475569;
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-  }
-
-  .About_Hi_TitleJobDescription{
-    color: #475569;
-   
-    font-family: 'Courier New', Courier, monospace;
-   
-  }
-
-  .About{
-    margin-top: 40px;
-  }
-  .About_Img_Contant{
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-  }
-
-  .About_Resume{
-    border: 2px solid #0062ff; 
-    padding: 10px;
-    border-radius: 5px; 
-    width: 150px;
-  }
-
-  .About_Resume_Resume{
-    color: black;
-  }
-
-  .About_Resume_Resume button {
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-
-background-color: white;
-border: 0px;
-
-
-  }
+.Nav_bar_Icon_left_element{
+  float: left !important;
+  margin-top: 2px ;
+}

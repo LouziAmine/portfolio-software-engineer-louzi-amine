@@ -17,8 +17,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar/Navbar';
 import Home from './pages/Home';
-import About from './pages/About';
+//import About from './pages/About';
 
+import AboutGenerale from './pages/AboutGenerale';
 
 const App = () => {
   return (
@@ -26,7 +27,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/About" element={<AboutGenerale />} />
       </Routes>
     </Router>
   );

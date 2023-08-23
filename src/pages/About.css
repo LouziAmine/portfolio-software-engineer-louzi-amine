@@ -1,0 +1,114 @@
+
+
+/* About */
+
+.About_Hi {
+    color:blue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+   }
+ 
+   .About_Hi_FullNames{
+     color:black;
+     font-size: 40px;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bolder;
+   }
+   /* #475569 */
+ 
+   .About_Hi_TitleJob{
+     color: #475569;
+     font-size: 28px;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bolder;
+   }
+ 
+   .About_Hi_TitleJob{
+     color: #475569;
+     font-size: 25px;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bolder;
+   }
+ 
+   .About_Hi_TitleJobDescription{
+     color: #475569;
+    
+     font-family: 'Courier New', Courier, monospace;
+    
+   }
+ 
+   .About{
+     margin-top: 40px;
+   }
+   .About_Img_Contant{
+     display: flex;
+     justify-content: center;
+     align-items: center;    
+   }
+ 
+   .About_Resume{
+     border: 2px solid #0062ff; 
+     padding: 10px;
+     border-radius: 5px; 
+     width: 150px;
+   }
+ 
+   .About_Resume_Resume{
+     color: black;
+   }
+ 
+   .About_Resume_Resume button {
+     color: black;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bolder;
+ 
+ background-color: white;
+ border: 0px;
+ 
+ 
+   }
+
+   /** About Me **/
+
+   /*
+    
+    .AboutMe_Line div {
+    display: inline;
+    
+    
+  }*/
+
+/*
+ .AboutMe_Line_UI {
+    margin-left: 20px;
+    background-color: #0062ff;
+    width: 30%;
+  }*/
+
+  /*hr.new4 {
+    border: 1px solid blue;
+    width: 50%;
+  }*/
+ 
+  .AboutMe_Line_Container{
+margin-bottom: 50px;
+  }
+
+ 
+
+
+
+  .About_Img_Contant {
+    position: relative; /* This is necessary for positioning the shadow */
+    display: inline-block; /* Or use a suitable display value */
+  }
+  
+  .About_Img_hover_effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adding transitions for the effect */
+  }
+  
+  .About_Img_hover_effect:hover {
+    transform: scale(1.1); /* Scaling the image up on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adding a shadow on hover */
+  }
